@@ -1,0 +1,188 @@
+*{
+ box-sizing: border-box;
+}
+
+#nav{
+	background-color: #ff6600;
+	width: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+#content{
+	position: relative;
+	top: 78px;
+	padding: 15px;
+}
+
+#content > .container > div {
+	padding: 78px 0;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+.menu{
+	float: right;
+}
+
+.menu li{
+	display: inline-block;
+	width: 150px;
+	padding: 10px 0px;
+
+	border: 1px solid white;
+	border-radius: 8px;
+  
+	list-style-type: none;
+	text-align: center;
+	background-color: #ff6600;
+	color: #fff;
+}
+
+a{
+ display: block;
+ color: #fff;
+ text-decoration: none;
+}
+
+li:hover{
+	background-color: #fff;
+}
+
+li:hover a{
+	color: #ff6600;
+	font-weight: 800;
+}
+
+/* about me */
+
+#my-avatar{
+	float: left;
+	margin-right: 20px;
+}
+
+#my-avatar img{
+	width: 165px;
+}
+
+hr bar{
+	border:2px solid orange;
+	width: 80px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#about h1{
+	margin-bottom: 0;
+	text-align: left;
+}
+
+h3{
+	margin: 0;
+}
+
+table{
+	font-size: 14px;
+	text-align: left;
+}
+
+th,td{
+	vertical-align: top;
+}
+
+td{
+	color: #666;
+	padding-left: 10px;
+}
+
+hr{
+	border: 0.5px solid lightgray;
+}
+
+/* my work*/
+
+#my-work-gallery{
+	float: center;
+	text-align: center;
+}
+
+.item{
+	position: relative;
+	max-width: 30%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.item img{
+	width: 100%;
+}
+
+.item-info{
+	width: 100%;
+	height: 100%;
+	display: none;
+
+	text-align: center;
+	padding: 25px 10px;
+	background-color: rgba(255,255,255,.8);
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: auto;
+}
+
+.item:hover .item-info{
+	display: block;
+}
+
+form.Contact-form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form-row{
+	margin-bottom: 10px;
+}
+
+.form-row input,.form-row textarea{
+	border-top-right-radius: 10px;
+	width: 100%;
+	padding: 7px;
+}
+
+.form-row textarea{
+	resize: none;
+	height: 4em;
+}
+
+.form-row button{
+	border: none;
+	border-radius: 3px;
+	padding: 10px 25px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.form-row button[type="submit"]{
+	background-color: #5995DA;
+	color: white;
+}
+
+.for-row button[type="reset"]{
+	background-color: #818384;
+	color: white;
+}
+
+.form-row button:active{
+	background-color: #407FC7;
+}
